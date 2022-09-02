@@ -1,0 +1,105 @@
+* {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-image: url(/images/pattern-background-desktop.svg);
+}
+
+.card {
+  width: 375px;
+  border-radius: 20px;
+  margin: 50px auto;
+  background: white;
+  color: #7280a7;
+}
+
+.card .hero-img {
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.card .content {
+  padding-bottom: 20px;
+  margin: auto;
+  width: 20rem;
+}
+
+.card .content .hero-head {
+  color: #1f2f56;
+}
+
+.card .content .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 16px;
+  background-color: #f5f7ff;
+  border-radius: 20px;
+  padding: 1em;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: auto;
+}
+
+.card .content .flex .flex1 {
+  margin-top: 25px;
+  margin-right: 15px;
+}
+
+.card .content .flex h3 {
+  color: #1f2f56;
+}
+
+.card .content .flex .flex3 {
+  margin: 30px 20px;
+}
+
+.card .content .flex .flex3 a {
+  font-weight: 500;
+  color: #3829e0;
+}
+
+.card .content .flex .flex3 a:hover {
+  text-decoration: none;
+  color: rgba(56, 41, 224, 0.792);
+}
+
+.card .content .btn-purple {
+  background-color: #3829e0;
+  padding: 1em;
+  border-radius: 10px;
+  margin: 20px auto;
+}
+
+.card .content .btn-purple .btn-text {
+  font-weight: bold;
+  font-size: 16px;
+  text-decoration: none;
+  color: white;
+}
+
+.card .content .btn-purple:hover {
+  background: rgba(56, 41, 224, 0.792);
+}
+
+.card .content .btn {
+  margin: 10px auto;
+  font-weight: bold;
+}
+
+.card .content .btn a {
+  text-decoration: none;
+  color: #7280a7;
+}
+
+.card .content .btn a:hover {
+  color: #1f2f56;
+}
+
+.attribution {
+  margin: 20px auto;
+}
+/*# sourceMappingURL=style.css.map */
